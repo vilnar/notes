@@ -27,6 +27,10 @@ ln -s /usr/bin/python3 /usr/bin/python
 
 https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/
 
+install latest version
+
+pip install git+https://github.com/ytdl-org/youtube-dl.git@master#egg=youtube_dl
+
 ```sh
 python -m youtube_dl -o "~/Downloads/%(title)s.%(ext)s" --cookie "~/Downloads/cookies.firefox-private.txt" "https://www.youtube.com/watch?v=id"
 ```
