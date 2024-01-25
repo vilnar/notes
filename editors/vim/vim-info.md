@@ -391,6 +391,13 @@ repeat in normal mode
 
 Press `K` in normal mode
 
+## help tags for plugins
+
+```sh
+cd vim/pack/plugins/start/
+vim -u NONE -c "helptags vim-fugitive/doc" -c q
+```
+
 
 ## vim server
 

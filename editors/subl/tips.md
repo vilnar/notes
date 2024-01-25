@@ -8,6 +8,18 @@
 
 `ctrl+shift+space`
 
+
+## quick add next
+
+add `Ctrl+d`
+
+skip `Ctrl+k Ctrl+d`
+
+## select text in html tag
+
+`ctrl+shift+a`
+
+
 ## exclude folders for search in files
 
 ```
@@ -51,14 +63,6 @@ https://download.sublimetext.com/sublime-merge_build-2068_amd64.deb
 
 https://download.sublimetext.com/sublime-text_build-3211_amd64.deb
 ```
-
-
-## quik add next
-
-add `Ctrl+d`
-
-skip `Ctrl+k Ctrl+d`
-
 
 ## smerge
 

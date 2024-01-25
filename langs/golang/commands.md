@@ -14,4 +14,5 @@ go build -o {name_binary} {path_to_file}
 install program to $GOPATH/bin/
 ```sh
 go install github.com/b4b4r07/gomi@latest
+go install github.com/junegunn/fzf@0.45.0
 ```
