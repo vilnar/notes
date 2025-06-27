@@ -210,13 +210,19 @@ git submodule update --remote
 ### add
 
 ```sh
-git submodule add -b {branch} --reference {repository} {path_to_submodule}
+git submodule add -- {repository} {path_to_submodule}
 ```
 
 ### change url
 
 ```sh
 git submodule set-url -- {path} {newurl}
+```
+
+### remove submodule
+
+```sh
+git rm {path_to_submodule}
 ```
 
 

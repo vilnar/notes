@@ -341,11 +341,6 @@ Then type s/foo/bar/c
 '<,'>g/foo/#
 ```
 
-## netrw copy path
-
-`mf`
-`mx`
-`ls`
 
 ## terminal in vim
 
@@ -373,6 +368,15 @@ bad word suggest
 
 Add word under the cursor as a good word to the first name in 'spellfile'.
 `zg`
+
+
+`]s` – Jump to the next misspelled word
+
+`[s` – Jump to the previous misspelled word
+
+`zg` – Good word: Add the word under the cursor to the dictionary
+
+`zw` – Woops! Undo and remove the word from the dictionary
 
 ## macros
 

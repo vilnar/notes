@@ -14,3 +14,10 @@ cursor
 ### insert rows repeat
 run `insert` then press
 `ctrl-shift-=`
+
+### search
+
+```
+=ISNUMBER(SEARCH(Аркуш1!$A$1:$A$72;H308))
+=OR(IF(ISNUMBER(SEARCH(Аркуш1!$A$1:$A$72;H308));TRUE;FALSE))
+```

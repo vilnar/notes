@@ -23,4 +23,6 @@ Host github.com
 check
 ```sh
 ssh -T git@{repo}
+
+ssh -T git@github.com
  ```

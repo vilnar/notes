@@ -32,7 +32,7 @@ install latest version
 pip install git+https://github.com/ytdl-org/youtube-dl.git@master#egg=youtube_dl
 
 ```sh
-python -m youtube_dl -o "~/Downloads/%(title)s.%(ext)s" --cookie "~/Downloads/cookies.firefox-private.txt" "https://www.youtube.com/watch?v=id"
+python -m youtube_dl -o "~/Downloads/%(title)s.%(ext)s" --cookie "~/Downloads/cookies.txt" "https://www.youtube.com/watch?v=id"
 ```
 
 ## where is python.h located

@@ -36,6 +36,7 @@ M-x find-name-dired
 ```
 C-x TAB
 ```
+and use arrows
 
 
 ## match brackets
