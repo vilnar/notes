@@ -11,3 +11,10 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 ```
+
+
+
+default path for home
+```sh
+~/.local/bin/
+```

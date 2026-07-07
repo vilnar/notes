@@ -22,6 +22,13 @@ which python3
 ln -s /usr/bin/python3 /usr/bin/python
 ```
 
+## pip and env
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+pip install ...
+```
+
 
 ## youtube-dl
 
