@@ -18,3 +18,10 @@ sudo tar -xzf Lapce-linux.tar.gz -C /opt/
 sudo chown $USER:$USER /opt/Lapce/
 sudo ln -s /opt/Lapce/lapce /usr/local/bin/lapce
 ```
+
+
+## libreoffice
+
+```sh
+sudo dpkg -i *.deb
+```
