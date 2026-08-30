@@ -1,3 +1,16 @@
+## libreoffice install
+
+install
+```sh
+sudo dpkg -i *.deb
+```
+
+remove
+```sh
+sudo apt remove libreoffice26.2
+```
+
+
 ## libreoffice calc cell focus highlight
 
 Tools -> Options -> LibreOffice -> Andanced -> Open Expert Configuration
